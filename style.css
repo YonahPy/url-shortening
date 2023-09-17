@@ -1,5 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+}
+:root{
+    --cyan: hsl(180, 66%, 49%);
+    --Dark-Violet: hsl(257, 27%, 26%);
+    --Red: hsl(0, 87%, 67%);
+    --Gray: hsl(0, 0%, 75%);
+    --Grayish-Violet: hsl(257, 7%, 63%);
+    --Very-Dark-Blue: hsl(255, 11%, 22%);
+    --Very-Dark-Violet: hsl(260, 8%, 14%);
+}
+
+p{
+    font-size: 18px;
+}
+header{
+    padding-inline: 50px;
+}
+nav{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 30px;
+}
+nav ul{
+    display: flex;
+    margin-left: 5vw;
+}
+nav li{
+    margin-left: 3vw;
+}
+a{
+    color: var(--Dark-Violet);
+}
+a:hover{
+    color: black;
+}
+.button-nav{
+    position: absolute;
+    right: 0;
+}
+.login{
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    padding: 12px;
+    border-radius: 30px;
+}
+.sign{
+    background-color: var(--cyan);
+    border: none;
+    width: 100px;
+    padding: 12px;
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.sign:hover{
+    background-color: hsla(180, 66%, 49%, 0.603);
 }
