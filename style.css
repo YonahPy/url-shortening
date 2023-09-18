@@ -20,6 +20,7 @@
 
 p{
     font-size: 18px;
+    color:var(--Very-Dark-Blue) ;
 }
 header{
     padding-inline: 50px;
@@ -38,7 +39,7 @@ nav li{
     margin-left: 3vw;
 }
 a{
-    color: var(--Dark-Violet);
+    color: var(--Very-Dark-Blue);
 }
 a:hover{
     color: black;
@@ -46,6 +47,7 @@ a:hover{
 .button-nav{
     position: absolute;
     right: 0;
+    margin-right: 110px;
 }
 .login{
     background-color: transparent;
@@ -67,3 +69,143 @@ a:hover{
 .sign:hover{
     background-color: hsla(180, 66%, 49%, 0.603);
 }
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+    
+}
+h1, h2, h3{   
+    color: var(--Very-Dark-Violet);
+    margin-bottom: 15px;
+    
+}
+.div-section1 h1{
+    font-size: 60px;
+    
+}
+.div-section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+.started{
+    background-color: var(--cyan);
+    border: none;
+    width: 140px;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.started:hover{
+    background-color: hsla(180, 66%, 49%, 0.603);
+}
+.image-section1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 30px;
+    
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    padding-block: 30px;
+}
+.div-shorten{
+    background-image: url('./assets/bg-shorten-desktop.svg');
+    padding: 50px;
+    background-color: var(--Dark-Violet);
+    width: 90vw;
+    border-radius: 10px;
+}
+.div-shorten input{
+    width: 80%;
+    padding: 17px;
+    border: none;
+    border-radius: 10px;
+}
+.shorten{
+    background-color: var(--cyan);
+    border: none;
+    width: 160px;
+    padding: 17px;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.shorten:hover{
+    background-color: hsla(180, 66%, 49%, 0.603);
+}
+h2{
+    font-size: 35px;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding: 80px 30px;
+}
+.div-section3{
+    margin-bottom: 120px;
+}
+.details{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+h3{
+    font-size: 25px;
+}
+.details .grid{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.144);
+    padding: 70px 20px 40px 20px;
+    position: relative;
+}
+
+.rounded-image{
+    background-color: var(--Dark-Violet);
+    padding: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+}
+.section4{
+    background-image: url('./assets/bg-boost-desktop.svg');
+    background-color: var(--Dark-Violet);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.section4 h2{
+    color: white;
+    
+}
+footer{
+    background-color:var(--Very-Dark-Violet);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 70px;
+}
+footer a{
+    color: white;
+}
+footer ul li{
+    margin-bottom: 15px;
+}
+.icons img{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
