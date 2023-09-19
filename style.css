@@ -113,8 +113,35 @@ h1, h2, h3{
 }
 .section2{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-block: 30px;
+}
+.result-f{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.267);
+    width: 90vw;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+#short-link{
+    color: var(--cyan);
+    font-weight: bold;
+}
+.copy{
+    width: 100px;
+    margin-inline: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cyan);
+    color: white;
+    font-weight: bold;
 }
 .div-shorten{
     background-image: url('./assets/bg-shorten-desktop.svg');
@@ -128,6 +155,9 @@ h1, h2, h3{
     padding: 17px;
     border: none;
     border-radius: 10px;
+}
+.div-shorten input:focus{
+    
 }
 .shorten{
     background-color: var(--cyan);
@@ -143,6 +173,10 @@ h1, h2, h3{
 }
 .shorten:hover{
     background-color: hsla(180, 66%, 49%, 0.603);
+}
+.erro{
+    color: var(--Red);
+    margin-top: 10px;
 }
 h2{
     font-size: 35px;
@@ -160,8 +194,18 @@ h2{
 .details{
     width: 90vw;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    grid-template-columns: 1fr 30px 1fr 30px 1fr;
+    
+}
+.line-f{
+    display: flex;
+    align-items: center;
+    width: 30px;
+}
+.line{
+    background-color: var(--cyan);
+    height: 10px;
+    width: 100%;
 }
 h3{
     font-size: 25px;
@@ -170,6 +214,12 @@ h3{
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.144);
     padding: 70px 20px 40px 20px;
     position: relative;
+}
+#grid-2{
+    margin-top: 40px;
+}
+#grid-3{
+    margin-top: 80px;
 }
 
 .rounded-image{
@@ -200,6 +250,9 @@ footer{
 }
 footer a{
     color: white;
+}
+footer a:hover{
+    color: var(--cyan);
 }
 footer ul li{
     margin-bottom: 15px;
