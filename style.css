@@ -204,8 +204,11 @@ footer a{
 footer ul li{
     margin-bottom: 15px;
 }
-.icons img{
+.icons svg{
     margin-left: 15px;
     cursor: pointer;
+}
+.icons path:hover{
+    fill:var(--cyan);
 }
 
